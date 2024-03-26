@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (hello_word) JobQueued: {'identifier': 'hello_word', 'dependencies': OrderedDict()}
+[0.000204] (hello_word) JobStarted: {'identifier': 'hello_word'}
+[0.012181] (hello_word) JobProgress: {'identifier': 'hello_word', 'progress': 'cmake'}
+[0.012460] (hello_word) Command: {'cmd': ['/usr/bin/cmake', '/home/xgs/code/hello_world', '-DCMAKE_INSTALL_PREFIX=/home/xgs/code/hello_world/install/hello_word'], 'cwd': '/home/xgs/code/hello_world/build/hello_word', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'arm64'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xgs'), ('SSH_CLIENT', '192.168.3.55 50164 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/lib/x86_64-linux-gnu:/home/xgs/dev_ws/install/learning_interface/lib:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xgs'), ('OLDPWD', '/home/xgs/code/hello_world/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73b962bd-7d61-4923-86e7-2b0abb85a873.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/xgs/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xgs'), ('CROSS_COMPILE', '/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/aarch64-linux-gnu-'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/xgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eb3a04b9fc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_pkg_c:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_interface:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/xgs/code/hello_world/build/hello_word'), ('SSH_CONNECTION', '192.168.3.55 50164 192.168.3.64 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xgs/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/xgs/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xgs/dev_ws/install/learning_pkg_c:/home/xgs/dev_ws/install/learning_interface:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[0.099213] (-) TimerEvent: {}
+[0.105954] (hello_word) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199361] (-) TimerEvent: {}
+[0.247822] (hello_word) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.258769] (hello_word) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299465] (-) TimerEvent: {}
+[0.358134] (hello_word) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.372158] (hello_word) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.372598] (hello_word) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.373506] (hello_word) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.379119] (hello_word) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399604] (-) TimerEvent: {}
+[0.479741] (hello_word) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.492598] (hello_word) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.493022] (hello_word) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.493694] (hello_word) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.499701] (-) TimerEvent: {}
+[0.503939] (hello_word) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599840] (-) TimerEvent: {}
+[0.700111] (-) TimerEvent: {}
+[0.725706] (hello_word) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800234] (-) TimerEvent: {}
+[0.878015] (hello_word) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900365] (-) TimerEvent: {}
+[0.996639] (hello_word) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.000480] (-) TimerEvent: {}
+[1.076223] (hello_word) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.086314] (hello_word) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.100616] (-) TimerEvent: {}
+[1.101444] (hello_word) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.125497] (hello_word) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.158101] (hello_word) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200732] (-) TimerEvent: {}
+[1.272050] (hello_word) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.279670] (hello_word) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.300820] (-) TimerEvent: {}
+[1.401150] (-) TimerEvent: {}
+[1.424482] (hello_word) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.464598] (hello_word) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.501285] (-) TimerEvent: {}
+[1.534438] (hello_word) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.557944] (hello_word) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.601426] (-) TimerEvent: {}
+[1.655804] (hello_word) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.656148] (hello_word) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.701565] (-) TimerEvent: {}
+[1.748337] (hello_word) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.749827] (hello_word) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.801681] (-) TimerEvent: {}
+[1.901981] (-) TimerEvent: {}
+[2.002283] (-) TimerEvent: {}
+[2.002537] (hello_word) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.002682] (hello_word) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.002764] (hello_word) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.007070] (hello_word) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.017706] (hello_word) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.017835] (hello_word) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.019695] (hello_word) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.021935] (hello_word) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.034950] (hello_word) StdoutLine: {'line': b'-- Generating done\n'}
+[2.037310] (hello_word) StdoutLine: {'line': b'-- Build files have been written to: /home/xgs/code/hello_world/build/hello_word\n'}
+[2.048651] (hello_word) CommandEnded: {'returncode': 0}
+[2.049415] (hello_word) JobProgress: {'identifier': 'hello_word', 'progress': 'build'}
+[2.051142] (hello_word) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xgs/code/hello_world/build/hello_word', '--', '-j8', '-l8'], 'cwd': '/home/xgs/code/hello_world/build/hello_word', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'arm64'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xgs'), ('SSH_CLIENT', '192.168.3.55 50164 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/lib/x86_64-linux-gnu:/home/xgs/dev_ws/install/learning_interface/lib:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xgs'), ('OLDPWD', '/home/xgs/code/hello_world/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73b962bd-7d61-4923-86e7-2b0abb85a873.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/xgs/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xgs'), ('CROSS_COMPILE', '/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/aarch64-linux-gnu-'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/xgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eb3a04b9fc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_pkg_c:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_interface:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/xgs/code/hello_world/build/hello_word'), ('SSH_CONNECTION', '192.168.3.55 50164 192.168.3.64 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xgs/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/xgs/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xgs/dev_ws/install/learning_pkg_c:/home/xgs/dev_ws/install/learning_interface:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[2.102432] (-) TimerEvent: {}
+[2.109380] (hello_word) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o\x1b[0m\n'}
+[2.202561] (-) TimerEvent: {}
+[2.302868] (-) TimerEvent: {}
+[2.403168] (-) TimerEvent: {}
+[2.503489] (-) TimerEvent: {}
+[2.603809] (-) TimerEvent: {}
+[2.704124] (-) TimerEvent: {}
+[2.804420] (-) TimerEvent: {}
+[2.904794] (-) TimerEvent: {}
+[3.005220] (-) TimerEvent: {}
+[3.105697] (-) TimerEvent: {}
+[3.206018] (-) TimerEvent: {}
+[3.306330] (-) TimerEvent: {}
+[3.406797] (-) TimerEvent: {}
+[3.507112] (-) TimerEvent: {}
+[3.607420] (-) TimerEvent: {}
+[3.707727] (-) TimerEvent: {}
+[3.808025] (-) TimerEvent: {}
+[3.908319] (-) TimerEvent: {}
+[4.008617] (-) TimerEvent: {}
+[4.108932] (-) TimerEvent: {}
+[4.209223] (-) TimerEvent: {}
+[4.309475] (-) TimerEvent: {}
+[4.409789] (-) TimerEvent: {}
+[4.510103] (-) TimerEvent: {}
+[4.610405] (-) TimerEvent: {}
+[4.710662] (-) TimerEvent: {}
+[4.810963] (-) TimerEvent: {}
+[4.911268] (-) TimerEvent: {}
+[5.011569] (-) TimerEvent: {}
+[5.111868] (-) TimerEvent: {}
+[5.212185] (-) TimerEvent: {}
+[5.312493] (-) TimerEvent: {}
+[5.412794] (-) TimerEvent: {}
+[5.513105] (-) TimerEvent: {}
+[5.613429] (-) TimerEvent: {}
+[5.713763] (-) TimerEvent: {}
+[5.814111] (-) TimerEvent: {}
+[5.914487] (-) TimerEvent: {}
+[6.014872] (-) TimerEvent: {}
+[6.115235] (-) TimerEvent: {}
+[6.215598] (-) TimerEvent: {}
+[6.315950] (-) TimerEvent: {}
+[6.416293] (-) TimerEvent: {}
+[6.516620] (-) TimerEvent: {}
+[6.616961] (-) TimerEvent: {}
+[6.717297] (-) TimerEvent: {}
+[6.817627] (-) TimerEvent: {}
+[6.917942] (-) TimerEvent: {}
+[7.018260] (-) TimerEvent: {}
+[7.118573] (-) TimerEvent: {}
+[7.218884] (-) TimerEvent: {}
+[7.319199] (-) TimerEvent: {}
+[7.419530] (-) TimerEvent: {}
+[7.515947] (hello_word) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_world\x1b[0m\n'}
+[7.519648] (-) TimerEvent: {}
+[7.619955] (-) TimerEvent: {}
+[7.720309] (-) TimerEvent: {}
+[7.791058] (hello_word) StdoutLine: {'line': b'[100%] Built target hello_world\n'}
+[7.805764] (hello_word) CommandEnded: {'returncode': 0}
+[7.820426] (-) TimerEvent: {}
+[7.843547] (hello_word) JobProgress: {'identifier': 'hello_word', 'progress': 'install'}
+[7.856057] (hello_word) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xgs/code/hello_world/build/hello_word'], 'cwd': '/home/xgs/code/hello_world/build/hello_word', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'arm64'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xgs'), ('SSH_CLIENT', '192.168.3.55 50164 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/lib/x86_64-linux-gnu:/home/xgs/dev_ws/install/learning_interface/lib:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xgs'), ('OLDPWD', '/home/xgs/code/hello_world/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-73b962bd-7d61-4923-86e7-2b0abb85a873.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/xgs/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xgs'), ('CROSS_COMPILE', '/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/aarch64-linux-gnu-'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/xgs/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/xgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/:/opt/gcc-ubuntu-9.3.0-2020.03-x86_64-aarch64-linux-gnu/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eb3a04b9fc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_pkg_c:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_interface:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/xgs/code/hello_world/build/hello_word'), ('SSH_CONNECTION', '192.168.3.55 50164 192.168.3.64 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xgs/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/xgs/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/xgs/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xgs/dev_ws/install/learning_pkg_c:/home/xgs/dev_ws/install/learning_interface:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[7.868006] (hello_word) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.868365] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world\n'}
+[7.870906] (hello_word) StdoutLine: {'line': b'-- Set runtime path of "/home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world" to ""\n'}
+[7.871231] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/package_run_dependencies/hello_word\n'}
+[7.871563] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/parent_prefix_path/hello_word\n'}
+[7.871810] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.sh\n'}
+[7.872100] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.dsv\n'}
+[7.872393] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.sh\n'}
+[7.872675] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.dsv\n'}
+[7.872970] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.bash\n'}
+[7.873277] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.sh\n'}
+[7.873453] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.zsh\n'}
+[7.873597] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.dsv\n'}
+[7.873812] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/package.dsv\n'}
+[7.874130] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/packages/hello_word\n'}
+[7.874494] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig.cmake\n'}
+[7.874780] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig-version.cmake\n'}
+[7.875002] (hello_word) StdoutLine: {'line': b'-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/package.xml\n'}
+[7.877603] (hello_word) CommandEnded: {'returncode': 0}
+[7.920544] (-) TimerEvent: {}
+[7.949314] (hello_word) JobEnded: {'identifier': 'hello_word', 'rc': 0}
+[7.950357] (-) EventReactorShutdown: {}

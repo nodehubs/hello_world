@@ -1,0 +1,16 @@
+/home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world
+/home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/package_run_dependencies/hello_word
+/home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/parent_prefix_path/hello_word
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.sh
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.dsv
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.sh
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.dsv
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.bash
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.sh
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.zsh
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.dsv
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/package.dsv
+/home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/packages/hello_word
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig.cmake
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig-version.cmake
+/home/xgs/code/hello_world/install/hello_word/share/hello_word/package.xml

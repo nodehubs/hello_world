@@ -1,0 +1,10 @@
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/uninstall.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/hello_word_uninstall.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/hello_world.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/test.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/edit_cache.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/rebuild_cache.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/list_install_components.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/install.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/install/local.dir
+/home/xgs/code/hello_world/build/hello_word/CMakeFiles/install/strip.dir
