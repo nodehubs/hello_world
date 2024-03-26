@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+using namespace std;
 
 class HelloPublisher : public rclcpp::Node
 {
@@ -14,6 +15,7 @@ public:
             message.data = "Hello, World!";
             RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
             publisher_->publish(message);
+            std::cout<<"start"<<std::endl;
         };
 
         // 发布 "Hello, World!" 每秒一次
