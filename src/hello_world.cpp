@@ -16,6 +16,8 @@ public:
             RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
             publisher_->publish(message);
             std::cout<<"start"<<std::endl;
+            std::cout<<"finish"<<std::endl;
+
         };
 
         // 发布 "Hello, World!" 每秒一次
