@@ -17,7 +17,7 @@ public:
             publisher_->publish(message);
             std::cout<<"start"<<std::endl;
             std::cout<<"============="<<std::endl;
-
+            std::cout<<"============="<<std::endl;
             std::cout<<"finish"<<std::endl;
 
         };
