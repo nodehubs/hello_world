@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/xgs/code/hello_world/build/hello_word': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/xgs/code/hello_world/build/hello_word -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target hello_world[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[4.663s] [100%] [32m[1mLinking CXX executable hello_world[0m
+[4.866s] [100%] Built target hello_world
+[4.878s] Invoked command in '/home/xgs/code/hello_world/build/hello_word' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/xgs/code/hello_world/build/hello_word -- -j8 -l8
+[4.923s] Invoking command in '/home/xgs/code/hello_world/build/hello_word': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/xgs/code/hello_world/build/hello_word
+[4.932s] -- Install configuration: ""
+[4.933s] -- Installing: /home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world
+[4.935s] -- Set runtime path of "/home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world" to ""
+[4.935s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/package_run_dependencies/hello_word
+[4.935s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/parent_prefix_path/hello_word
+[4.936s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.sh
+[4.936s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.dsv
+[4.936s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.sh
+[4.936s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.dsv
+[4.936s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.bash
+[4.937s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.sh
+[4.937s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.zsh
+[4.937s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.dsv
+[4.937s] -- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/package.dsv
+[4.937s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/packages/hello_word
+[4.937s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig.cmake
+[4.938s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig-version.cmake
+[4.938s] -- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/package.xml
+[4.939s] Invoked command in '/home/xgs/code/hello_world/build/hello_word' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xgs/dev_ws/install/learning_urdf:/home/xgs/dev_ws/install/learning_topic:/home/xgs/dev_ws/install/learning_tf:/home/xgs/dev_ws/install/learning_service:/home/xgs/dev_ws/install/learning_qos:/home/xgs/dev_ws/install/learning_pkg_python:/home/xgs/dev_ws/install/learning_parameter:/home/xgs/dev_ws/install/learning_node:/home/xgs/dev_ws/install/learning_launch:/home/xgs/dev_ws/install/learning_action:/home/xgs/dev_ws/install/learning_gazebo:/home/xgs/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/xgs/code/hello_world/build/hello_word

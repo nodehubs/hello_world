@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_world[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello_world[0m
+[100%] Built target hello_world
+-- Install configuration: ""
+-- Installing: /home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world
+-- Set runtime path of "/home/xgs/code/hello_world/install/hello_word/lib/hello_word/hello_world" to ""
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/package_run_dependencies/hello_word
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/parent_prefix_path/hello_word
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.sh
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/environment/path.dsv
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.bash
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.sh
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.zsh
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/local_setup.dsv
+-- Installing: /home/xgs/code/hello_world/install/hello_word/share/hello_word/package.dsv
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/ament_index/resource_index/packages/hello_word
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig.cmake
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/cmake/hello_wordConfig-version.cmake
+-- Up-to-date: /home/xgs/code/hello_world/install/hello_word/share/hello_word/package.xml
